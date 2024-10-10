@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="./img/cream-logo.png" width="400px" alt="cream-logo" />
+
 # An Efficient Recipe for Long Context Extension via Middle-Focused Positional Encoding
 
 [![arXiv](https://img.shields.io/badge/arXiv-2406.07138-b31b1b.svg)](https://arxiv.org/abs/2406.07138)
@@ -9,7 +11,7 @@
 
 ## Updates
 
-- (2024.09.26) Our Paper have been accepted by NeurIPS 2024.
+- (2024.09.26) Our Paper have been accepted by **NeurIPS 2024**🔥🔥.
 - (2024.06.11) Paper Release on [Arxiv](https://arxiv.org/pdf/2406.07138).
 
 ## 🚀 Overview
