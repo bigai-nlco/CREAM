@@ -1,6 +1,6 @@
 <div align="center">
 
-# Never Miss A Beat: An Efficient Recipe for Long Context Extension via Middle-Focused Positional Encoding
+# An Efficient Recipe for Long Context Extension via Middle-Focused Positional Encoding
 
 [![arXiv](https://img.shields.io/badge/arXiv-2406.07138-b31b1b.svg)](https://arxiv.org/abs/2406.07138)
 [![Conference](http://img.shields.io/badge/NeurIPS-2024-4b44ce.svg)](https://nips.cc/Conferences/2024)
