@@ -114,13 +114,11 @@ Data / Code:
 Please cite our paper if you use [CREAM](https://arxiv.org/abs/2305.09515) in your work:
 
 ```bibtex
-@misc{wu2024cream,
-      title={Never Miss A Beat: An Efficient Recipe for Context Window Extension of Large Language Models with Consistent "Middle" Enhancement}, 
-      author={Tong Wu and Yanpeng Zhao and Zilong Zheng},
-      year={2024},
-      eprint={2406.07138},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2406.07138}, 
+@inproceedings{wu2024cream,
+    title={An Efficient Recipe for Long Context Extension via Middle-Focused Positional Encoding},
+    author={Wu, Tong and Zhao, Yanpeng and Zheng, Zilong},
+    booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+    volume = {37},
+    year={2024}
 }
 ```
