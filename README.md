@@ -107,7 +107,7 @@ Data / Code:
 Please cite our paper if you use [CREAM](https://arxiv.org/abs/2305.09515) in your work:
 
 ```bibtex
-@misc{wu2024missbeatefficientrecipe,
+@misc{wu2024cream,
       title={Never Miss A Beat: An Efficient Recipe for Context Window Extension of Large Language Models with Consistent "Middle" Enhancement}, 
       author={Tong Wu and Yanpeng Zhao and Zilong Zheng},
       year={2024},
