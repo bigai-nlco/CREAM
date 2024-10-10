@@ -1,6 +1,6 @@
 <div align="center">
 
-# Never Miss A Beat: Efficient Long Context Extension via Middle-Focused Positional Encoding
+# Never Miss A Beat: An Efficient Recipe for Long Context Extension via Middle-Focused Positional Encoding
 
 [![arXiv](https://img.shields.io/badge/arXiv-2406.07138-b31b1b.svg)](https://arxiv.org/abs/2406.07138)
 [![Conference](http://img.shields.io/badge/NeurIPS-2024-4b44ce.svg)](https://nips.cc/Conferences/2024)
@@ -40,11 +40,15 @@ pip install -r requirements.txt
 conda install -c nvidia cuda-nvcc
 pip install flash_attn-2.5.7+cu122torch2.2cxx11abiFALSE-cp39-cp39-linux_x86_64.whl
 
+# replace lm-evaluation-harness
+git clone https://github.com/EleutherAI/lm-evaluation-harness.git
+"replace lm_eval folder"
+
 ```
 
 ## 💡 How to run
 
-You can download all the finetune data and evaluation data from []()
+You can download all the finetune data and evaluation data from [pile_4k_train](https://huggingface.co/datasets/victor-wu/pile_4k_train), [pile_val](https://huggingface.co/datasets/victor-wu/pile_val), [ShareGPT_4k_train](https://huggingface.co/datasets/victor-wu/ShareGPT_4k_train), [ShareGPT_val](https://huggingface.co/datasets/victor-wu/ShareGPT_val), [gov_report](https://huggingface.co/datasets/victor-wu/gov_report), [proof-pile](https://huggingface.co/datasets/victor-wu/proof-pile), [book3](https://huggingface.co/datasets/victor-wu/book3), [pg19_long](https://huggingface.co/datasets/victor-wu/pg19_long), [LongChat-Lines](https://huggingface.co/datasets/victor-wu/LongChat-Lines), [Needle in a Haystack](https://github.com/gkamradt/LLMTest_NeedleInAHaystack), [LongBench](https://github.com/THUDM/LongBench)
 
 **Attention: You have to modify the "root" path in every file in the *scripts* folder.**
 
@@ -101,6 +105,7 @@ Data / Code:
 - [Lost in the Middle](https://github.com/nelson-liu/lost-in-the-middle)
 - [Needle in a Haystack](https://github.com/gkamradt/LLMTest_NeedleInAHaystack)
 - [LongBench](https://github.com/THUDM/LongBench)
+- [lm evaluation harness](https://github.com/EleutherAI/lm-evaluation-harness)
 
 ## 📜 Citation
 
